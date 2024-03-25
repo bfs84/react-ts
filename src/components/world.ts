@@ -1,13 +1,16 @@
 export class World {
-    private message: string;
+  private message: string
 
-    constructor(message: string) {
-        this.message = message;
-    }
+  constructor(message: string) {
+    this.message = message
+  }
 
-    public sayHello(elem) {
-        if (elem) {
-            elem.innerText = this.message;
-        }
+  public sayHello(elem: HTMLElement | null): void {
+
+
+    
+    if (elem) {
+      elem.innerText = this.message
     }
+  }
 }

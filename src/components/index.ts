@@ -1,1 +1,1 @@
-export {World} from './world';
+export { World } from './world'
